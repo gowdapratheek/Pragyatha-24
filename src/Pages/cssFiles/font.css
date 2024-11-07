@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family: "Space Mono", serif;
+}
+.frontPage {
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Changed from none to no-repeat */
+    background-size: cover;
+    /* filter: blur(10px); */
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), transparent), url(../../assets/Images/technology.jpg);
+
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 43, 149);
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}

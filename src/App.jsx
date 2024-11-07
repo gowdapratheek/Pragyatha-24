@@ -1,13 +1,22 @@
-
-// import './App.css'
+import React from "react"
+import Navbar from "./components/Navbar";
+import Cursor from "./components/ui/Cursor";
 import { Button } from "@/components/ui/button"
+import Scroll from "./components/ui/Scroll";
+import Entrorphosis from "./Pages/Entrorphosis";
+
+
 function App() {
 
 
   return (
     <>
-      <div className="text-4xl font-bold">Pragyatha-24</div>
-      <Button>Click me</Button>
+      <div>
+        <Cursor />
+  
+        {/* <Navbar /> */}
+        {/* <Entrorphosis/> */}
+      </div>
     </>
   )
 }
