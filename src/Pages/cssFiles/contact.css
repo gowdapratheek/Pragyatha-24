@@ -1,0 +1,10 @@
+.main {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Changed from none to no-repeat */
+    background-size: cover;
+    /* filter: blur(10px); */
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), transparent), url(../../assets/Images/Wallpapers/wallpaper9.jpg);
+
+}
